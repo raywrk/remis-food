@@ -18,7 +18,7 @@ import { environment } from './environments/environment.prod';
 bootstrapApplication(AppComponent, {
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    provideIonicAngular(),
+    provideIonicAngular({backButtonText: '', innerHTMLTemplatesEnabled: true}),
     provideRouter(routes, withPreloading(PreloadAllModules)),
 
     // firebase

@@ -35,3 +35,31 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+// @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+  font-family: "Nunito";
+  src: url('assets/fonts/Nunito/Nunito-Regular.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url('assets/fonts/Nunito/Nunito-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url('assets/fonts/Nunito/Nunito-Italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url('assets/fonts/Nunito/Nunito-ExtraBold.ttf');
+  font-style: normal;
+  font-weight: 800;
+}

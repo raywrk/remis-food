@@ -10,4 +10,9 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'user',
+    loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule)
+  },
+
 ];
